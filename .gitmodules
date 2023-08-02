@@ -1,0 +1,9 @@
+[submodule "scenario_executor/carla_sim/leaderboard"]
+	path = scenario_executor/carla_sim/leaderboard
+	url = https://github.com/carla-simulator/leaderboard
+[submodule "scenario_executor/carla_sim/scenario_runner"]
+	path = scenario_executor/carla_sim/scenario_runner
+	url = https://github.com/carla-simulator/scenario_runner
+[submodule "mutation_engine/pymoo"]
+	path = mutation_engine/pymoo
+	url = https://github.com/anyoptimization/pymoo
