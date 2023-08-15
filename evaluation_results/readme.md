@@ -1,0 +1,1 @@
+To replay Carla simulation logs, please [install Carla](https://carla.readthedocs.io/en/0.9.11/start_quickstart/) first and then refer to the [recorder document](https://carla.readthedocs.io/en/0.9.11/adv_recorder/) and the [replaying script](https://github.com/carla-simulator/carla/blob/0.9.11/PythonAPI/examples/start_replaying.py).
