@@ -2,6 +2,8 @@
 
 For detailed safety violation explanations, simulator logs, and scenario relationship diagrams, please refer to evaluation_results/.
 
+For domain-specific scenario information for clustering, please refer to exception_estimator/.
+
 ## Safety Violation
 
 To browse our testing results of test driving scenario {ADS}_{Driving-Tasks}, please refer to the corresponding directory `evaluation_results\{ADS}_{Driving-Tasks}`.
