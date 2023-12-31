@@ -16,7 +16,7 @@ To replay Carla simulation logs, please [install Carla](https://carla.readthedoc
 
 Through a preliminary trajectory-topological analysis, we have discovered interesting relationships between all types of scenarios, including safety-violation and normal driving ones. 
 
-![img](TCP_TL/derive.png)
+![img](evaluation_results/TCP_TL/derive.png)
 
 Taking test driving scenario TCP_TL (TCP driving for the task of TL) for example, these scenarios can be viewed as derived from four basic types of normal driving scenarios. This makes sense as our fuzzer does subtly perturb controlled environments to uncover potential corner cases, which demonstrates the advantage of the simulation-based ADS fuzzing technique.
 
