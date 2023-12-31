@@ -14,7 +14,7 @@ We choose the above semantic information because they characterize the represent
 
 Figure 14: A cluster of safety-violating scenarios and their scenario semantics extracted by DoFuzz in the test setting of InterFuser_TL. Each scenario contains three vehicle trajectories, printed in a unique color.
 
-<img title="" src="readme_pic/2024-01-01-01-12-26-image.png" alt="" width="356" data-align="center">
+<img title="" src="readme_pic/2024-01-01-01-12-26-image.png" alt="" width="617" data-align="center">
 
 We analyze a cluster of concrete test scenarios to better understand what safety-violating test scenarios look like, what are the failures of ADS in these scenarios, and how to determine the potential design deficiencies in ADS. 
 
