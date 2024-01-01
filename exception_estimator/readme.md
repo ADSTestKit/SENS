@@ -2,7 +2,7 @@
 
 ## Scenario Semantics
 
-We mine three types of semantic information in a scenario as follows:
+Scenario semantics are domain-specific, and their extraction requires significant domain knowledge. We mine three types of semantic information in a scenario as follows:
 
 - **Dominant NPC** refers to the closest *NPC vehicle*  to the *Ego vehicle*  if *Ego vehicle*  fails to complete the route mission. Existing approaches commonly measure *Ego vehicle*’s minimum distance to *NPC vehicles* as violation feedback [ 1, 10 , 23 , 35 , 42 ]. Taking it one step further, we argue that different closest NPC vehicle implies different cause of failure. Such semantics is computed by placing an *Ego vehicle* bounding box on each waypoint and then comparing the distance with the bounding boxes of all *NPC vehicles*. To adapt such semantics to normal scenarios, we specify null to indicate that *Ego vehicle* succeeds in route completion.
 - **Attack Angle** represents the direction of *Ego vehicle* from the perspective of an *NPC vehicle*. Relative orientation (front, rear, and side) between vehicles has been considered in previous works [ 16, 20 ] for accident attribution. To indicate these directions, as shown in Fig. 6, we define six fuzzy angles, each occupying sixty degrees. We aim to utilize the fuzzy angle to indicate the critical body part of an *NPC vehicle* that physically or remotely affects *Ego vehicle*.

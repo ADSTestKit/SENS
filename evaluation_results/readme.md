@@ -1,8 +1,8 @@
 # DoFuzz
 
-## Safety Violation
+## ADS Failure
 
-To browse our testing results of test driving scenario {ADS}_{Driving-Tasks}, please refer to the corresponding directory `evaluation_results\{ADS}_{Driving-Tasks}`.
+To browse our testing results of test driving scenario {ADS}_{Driving-Tasks}, please refer to the corresponding directory `./{ADS}_{Driving-Tasks}`.
 
 Option:
  - ADS - TCP, ...
