@@ -1,5 +1,47 @@
 # DoFuzz
 
+## Introduction
+
+An open-source software package for fuzzing autonomous driving systems in high-fidelity simulators. It is also currently actively maintained and developed.
+
+## Requirements
+
+OS: Ubuntu 20.04
+
+CPU: >= 8 cores
+
+GPU: >= 24GB memory
+
+## Environment Setup
+
+```sh
+git clone https://github.com/ADSTestKit/SENS.git
+pip3 install -r requirements.txt
+```
+
+## Download ADS
+
+Carla leaderboard: https://leaderboard.carla.org/leaderboard/
+
+```sh
+# InterFuser: 
+git clone https://github.com/opendilab/InterFuser.git
+
+# NEAT:
+git clone https://github.com/autonomousvision/neat.git
+
+# Rails:
+git clone https://github.com/dotchen/WorldOnRails.git
+```
+
+## Launch DoFuzz
+
+```sh
+python3 DoFuzz.py
+```
+
+## Evaluation results in paper
+
 For detailed ADS failure explanations, simulator logs, and scenario relationship diagrams, please refer to evaluation_results/.
 
 For detailed domain knowledge about scenario semantics for scenario clustering, please refer to exception_estimator/.
